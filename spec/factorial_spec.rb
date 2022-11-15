@@ -1,3 +1,4 @@
+
 require './solver'
 
 context 'factorialise' do
@@ -77,7 +78,7 @@ context 'fizzbuzz' do
     end
 
     it 'Should return number as a number when number is not divisible by 3 or 5' do
-      expect(solver.fizzbuzz(8)).not_to eql(😎
+      expect(solver.fizzbuzz(8)).not_to eql(8)
     end
   end
 end
