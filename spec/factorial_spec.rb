@@ -19,6 +19,9 @@ context 'factorialise' do
     it 'Should not raise an error when a number >= 0 is passed' do
       expect { solver.factorial(5) }.not_to raise_error('Negative value Error')
     end
+    it 'when input is 0, the result should equal 1' do
+      expect(solver.factorial(0)).to eql(1)
+    end
   end
 end
 
