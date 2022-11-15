@@ -1,4 +1,3 @@
-
 require './solver'
 
 context 'factorialise' do
